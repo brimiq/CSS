@@ -1,0 +1,46 @@
+h1 {
+    color:aqua
+}
+p,
+li {
+  color: #802200;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+    background-color: rgb(8, 17, 34);
+}
+p {
+  background-color: hsl(249, 90%, 51%);      /* Optional: background color to make edges visible */
+  padding: 5px;                  /* Space inside the paragraph */
+  border-radius: 10px;            /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+img {
+  border-radius: 8px;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+
+}
