@@ -12,8 +12,8 @@ body {
     background-color: rgb(8, 17, 34);
 }
 p {
-  background-color: hsl(249, 90%, 51%);      /* Optional: background color to make edges visible */
-  padding: 5px;                  /* Space inside the paragraph */
+  background-color: hwb(206 26% 12%);      /* Optional: background color to make edges visible */
+  padding: 15px;                  /* Space inside the paragraph */
   border-radius: 10px;            /* Rounded corners */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
 }
@@ -32,7 +32,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: #f15874;
 }
 
 /* mouse over link */
@@ -44,4 +44,19 @@ a:hover {
 a:active {
   color: blue;
 
+}
+
+
+.container {
+display: flex;
+flex-direction: column; /* stack items vertically */
+align-items: center; /* optional: centers them */
+gap: 15px; /* space between elements */
+}
+img {
+  width: 150px;  /* or any size you want */
+  height: auto;  /* maintains aspect ratio */
+}
+h1 {
+  text-align: center;
 }
